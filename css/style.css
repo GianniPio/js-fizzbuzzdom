@@ -28,29 +28,31 @@ h1 {
 /* tag container quadrati */
 
 #container_square {
-    width: 50%;
+    width: 60%;
     margin: 0 auto;
     display: flex;
+    flex-wrap: wrap; 
+    justify-content: space-between ;
 }
 
 .square {
-    width:calc(100% / 7) ;
-    margin: 0 10px;
+    width:calc(80% / 7) ;
+    margin: 10px;
     padding: 20px;
 }
 
-.blu {
+.normal {
     background-color:#1389b2 ;
 }
 
-.green {
+.fizz {
     background-color: #0bd6a0;
 }
 
-.yellow {
+.buzz {
     background-color: #ffd166 ;
 }
 
-.red {
+.fizzbuzz {
     background-color: #f0466f;
 }
