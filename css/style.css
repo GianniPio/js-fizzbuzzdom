@@ -5,3 +5,52 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+/* tag body */
+
+body {
+    background-color:#083b4c ;
+}
+
+/* tag container */
+
+#container {
+    text-align: center;
+    margin: 0 auto;
+}
+
+h1 {
+    color: white;
+    font-size: 100px;
+    margin: 30px 0;
+}
+
+/* tag container quadrati */
+
+#container_square {
+    width: 50%;
+    margin: 0 auto;
+    display: flex;
+}
+
+.square {
+    width:calc(100% / 7) ;
+    margin: 0 10px;
+    padding: 20px;
+}
+
+.blu {
+    background-color:#1389b2 ;
+}
+
+.green {
+    background-color: #0bd6a0;
+}
+
+.yellow {
+    background-color: #ffd166 ;
+}
+
+.red {
+    background-color: #f0466f;
+}
